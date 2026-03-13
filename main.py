@@ -192,7 +192,7 @@ if st.button("Submit Jawaban"):
         7: "6",
         8: "1928",
         9: "Newton",
-        10: "Azam"
+        10: "Mifzal Adzam"
 
     }
 
@@ -217,6 +217,7 @@ if st.button("Submit Jawaban"):
             st.error(f"Soal {nomor} Salah. Jawaban benar: {kunci[nomor]}")
 
     st.subheader(f"Nilai kamu: {skor}")
+
 
 
 
