@@ -170,7 +170,7 @@ if soal_jawaban10 == "Christiano Ronaldo":
     st.write("Bukan dia pembuatnya:symbols_over_mouth:")
 if soal_jawaban10 == "Justin Bieber":
     st.write("Boleh dipikir lagi:rage:")
-if soal_jawaban10 == "Azam":
+if soal_jawaban10 == "Mifzal Adzam":
     st.write("hehehe yap betul sekali:hugs:")
 
 
@@ -217,6 +217,7 @@ if st.button("Submit Jawaban"):
             st.error(f"Soal {nomor} Salah. Jawaban benar: {kunci[nomor]}")
 
     st.subheader(f"Nilai kamu: {skor}")
+
 
 
 
