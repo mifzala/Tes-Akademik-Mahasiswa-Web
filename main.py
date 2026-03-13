@@ -160,7 +160,7 @@ soal_jawaban10 = st.radio('10. "Siapa sebenarnya pembuat website ini?',
                          ["Michael Jordan",
                           "Christiano Ronaldo",
                           "Justin Bieber",
-                          "Azam"],
+                          "Mifzal Adzam"],
                           index = None
                           )
 
@@ -217,6 +217,7 @@ if st.button("Submit Jawaban"):
             st.error(f"Soal {nomor} Salah. Jawaban benar: {kunci[nomor]}")
 
     st.subheader(f"Nilai kamu: {skor}")
+
 
 
 
